@@ -1,0 +1,24 @@
+.tableRow {
+    display: flex;
+    padding: 1rem;
+    border-bottom: 1px solid whitesmoke;;
+}
+  
+.tableColumn {
+    display: inline-block;
+    width: 400px;
+}
+  
+.tableHeaderValue {
+    display: inline-block;
+    color: #839a00;
+    background-color: #0f0f0f;
+    padding: .5rem 1rem;
+    border-radius: .5rem; 
+}
+  
+.tableValue {
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    display: inline-block;
+}

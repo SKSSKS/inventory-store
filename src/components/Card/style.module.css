@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    gap: .5rem;
+    max-width: 20rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: #5A7247;
+}
+
+.title {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.value {
+    font-weight: bold;
+    font-size: 2rem;
+}

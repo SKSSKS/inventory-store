@@ -1,0 +1,92 @@
+.page {
+  max-width: 90%;
+  padding: 1rem;
+  margin: auto;
+  font-family: var(--font-geist-sans);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.switch {
+  width: 60px;
+  height: 34px;
+  position: relative;
+  display: inline-block;
+  background-color: #839a00;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.switch::after {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #d5f814;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.cardWrp {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 1rem;
+}
+
+.switch input:checked + .slider {
+  transform: translateX(30px);
+}
+
+.table {
+  list-style: none;
+  background-color: #383838;
+  border: 1px solid rgb(95, 95, 95);
+  border-bottom: none;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.tableRow {
+  display: flex;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(95, 95, 95);
+}
+
+.disabled {
+  color: rgb(95, 95, 95);;
+}
+
+.tableColumn {
+  display: inline-block;
+  width: 400px;
+}
+
+.tableHeaderValue {
+  display: inline-block;
+  color: #839a00;
+  background-color: #0f0f0f;
+  padding: .5rem 1rem;
+  border-radius: .5rem; 
+}
+
+.tableValue {
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  display: inline-block;
+}
+
+.noProduct {
+  padding: 3rem;
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+}

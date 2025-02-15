@@ -1,0 +1,12 @@
+.actions {
+    display: flex;
+    gap: .5rem;
+}
+
+.action {
+    cursor: pointer;
+}
+
+.disabledAction {
+    cursor: not-allowed;
+}
